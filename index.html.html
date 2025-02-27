@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrimonial Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="MAT 4.jpg" Matrimonial">
+    </div>
+
+    <div class="container">
+        <h1>Matrimonial Website</h1>
+        
+        <!-- Registration Form -->
+        <div class="form">
+            <h2>Register</h2>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <select id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <input type="text" id="location" placeholder="Location" required>
+            <button onclick="registerUser()">Register</button>
+        </div>
+
+        <!-- Matchmaking Section -->
+        <div class="matches">
+            <h2>Find a Match</h2>
+            <select id="matchGender">
+                <option value="Male">Looking for Male</option>
+                <option value="Female">Looking for Female</option>
+            </select>
+            <button onclick="findMatches()">Find Matches</button>
+        </div>
+
+        <!-- Display Profiles -->
+        <h2>Registered Profiles</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody id="profiles"></tbody>
+        </table>
+
+        <h2>Matching Profiles</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody id="matchedProfiles"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
