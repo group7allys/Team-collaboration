@@ -8,7 +8,6 @@ body {
     padding: 0;
 }
 
-/* Banner Image */
 .banner img {
     width: 100%;
     max-height: 400px;
@@ -16,7 +15,6 @@ body {
     border-radius: 0px;
 }
 
-/* Container */
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -25,7 +23,6 @@ body {
     border-radius: 10px;
 }
 
-/* Form Styling */
 .form, .matches {
     background: rgba(255, 255, 255, 0.1);
     padding: 15px;
