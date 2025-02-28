@@ -11,7 +11,7 @@ function registerUser() {
         return;
     }
 
-    let user = { name, age, gender, location };
+    let user = { Name, Age, Gender, Location };
     let users = JSON.parse(localStorage.getItem("users")) || [];
     users.push(user);
 
