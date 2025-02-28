@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #ff9966, #ff5e62);
@@ -50,7 +49,6 @@ button:hover {
     background: #ff9966;
 }
 
-/* Table Styling */
 table {
     width: 100%;
     margin-top: 10px;
